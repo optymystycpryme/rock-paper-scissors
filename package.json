@@ -1,0 +1,23 @@
+{
+  "name": "rockPaperScissors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optymystycpryme/rock-paper-scissors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/optymystycpryme/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/optymystycpryme/rock-paper-scissors#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
