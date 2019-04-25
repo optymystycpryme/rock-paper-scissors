@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+<!-- 	<meta name="viewport" content="width-device-width, initial-scale=1" -->
+		<link type="text/css" rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<title>Rock Paper Scissors Game</title>
+	</head>
+	<body> 
+		<header>
+			<h1>Let's <span class="rock-text">Rock </span><span class="paper-text">Paper </span><span class="scissors-text">Scissors </span>For It</h1>
+		</header>
+
+		<div class="score-board">
+			<div id="user-label" class="badge">user</div>
+			<div id="computer-label" class="badge">comp</div>
+			<span id="user-score">0</span>:<span id="computer-score">0</span>
+		</div>
+
+		<div class="result">
+			<p>Paper covers rock. You win!</p>
+		</div>
+
+		<div class="choices">
+			<div class="choice" id="r">
+				<img src="https://vignette.wikia.nocookie.net/runescape2/images/7/72/Living_rock_striker.png/revision/latest?cb=20120908044733" height="120px" width="120px" alt="rock">
+			</div>
+			<div class="choice" id="p">
+				<img src="https://cdn0.iconfinder.com/data/icons/rock-paper-scissors-emoji/792/rock-paper-scissors-emoji-cartoon-019-512.png" height="120px" width="120px" alt="paper">
+			</div>
+			<div class="choice" id="s">
+				<img src="http://pluspng.com/img-png/cartoon-scissors-png-hd-png-small-medium-large-360.png" height="120px" width="120px" alt="scissors">
+			</div>
+		</div>
+
+		<p id="action-message">Show me your moves.</p>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
