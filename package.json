@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/optymystycpryme/rock-paper-scissors/issues"
   },
-  "homepage": "https://github.com/optymystycpryme/rock-paper-scissors#readme",
+  "homepage": "https://optymystycpryme.github.io/rock-paper-scissors",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
